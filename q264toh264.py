@@ -3,6 +3,15 @@
 
 import os
 
+#  Almost working code to take the directory from the command line. 
+#import sys
+# Get the total number of args passed to the demo.py
+#total = len(sys.argv)
+ 
+# Get the arguments list 
+#cmdargs = str(sys.argv[1])
+#print ("Processing Dir: %s " % cmdargs)
+
 # The top argument for walk
 topdir = '/path/to/files/'
 # The extension to search for
