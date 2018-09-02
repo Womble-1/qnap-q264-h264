@@ -70,12 +70,12 @@ else:
                             #print what we find
                             print(os.path.join(dirpath, name))
                             # Save to results string instead of printing
-                           f=open(os.path.join(dirpath, name),"r+")
-                           f.seek(0x70)
-                           f.write('h264')
-                           f.seek(0xBC)
-                           f.write('h264')
-                           f.close()
+                            f=open(os.path.join(dirpath, name),"r+")
+                            f.seek(0x70)
+                            f.write('h264')
+                            f.seek(0xBC)
+                            f.write('h264')
+                            f.close()
             except:
                 print("Unexpected error: Please check directory names", sys.exc_info()[0])
 	    
